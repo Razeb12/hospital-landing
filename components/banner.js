@@ -8,29 +8,31 @@ export default function Banner() {
         <div className="pr-12 sm:px-4 sm:text-center">
           <div className="font-medium text-white ">
             <div className=" md:inline items-center">
-              <span className="text-green-300 uppercase">
+              <span className="text-green-300 text-xs uppercase">
                 <strong>Contact:</strong>
               </span>{" "}
               &nbsp;
-              <span>1-800-1234-567 1-800-1234-567</span>
+              <span className="text-xs">1-800-1234-567 1-800-1234-567</span>
             </div>{" "}
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp;
             <div className=" md:inline items-center">
-              <span className="text-green-300 uppercase">
+              <span className="text-green-300 text-xs uppercase">
                 <strong>Email:</strong>
               </span>{" "}
               &nbsp;
-              <span>demo@gmail.com</span>
+              <span className="text-xs">demo@gmail.com</span>
             </div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp;
             <div className=" md:inline items-center">
-              <span className="text-green-300 uppercase">
+              <span className="text-green-300 text-xs uppercase">
                 <strong>Address:</strong>
               </span>{" "}
               &nbsp;
-              <span>2130 Fulton Street San Diego CA 94117-1080 USA</span>
+              <span className="text-xs">
+                2130 Fulton Street San Diego CA 94117-1080 USA
+              </span>
             </div>
           </div>
         </div>

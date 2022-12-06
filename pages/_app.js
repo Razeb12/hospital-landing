@@ -1,9 +1,9 @@
 import Layout from "../components/layouts";
 import "../styles/globals.css";
-import { Open_Sans} from "@next/font/google";
+import { Nunito} from "@next/font/google";
 
-const roboto = Open_Sans({
-  weight: "400",
+const roboto = Nunito({
+  weight: "500",
   subsets: ["latin"],
 });
 function MyApp({ Component, pageProps }) {

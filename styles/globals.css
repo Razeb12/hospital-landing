@@ -3,33 +3,26 @@
 @tailwind utilities;
 
 
-
 html,
 body {
   padding: 0;
   margin: 0;
   
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .swiper {
   width: 100%;
   height: 100%;
 }
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
- 
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +52,6 @@ a {
   height: 100%;
   background-image: url("../public/background.jpeg");
 }
-
 .testing {
   background-image: url('https://ld-wt73.template-help.com/wt_prod-20176/images/home-01-320x320.jpg');
 }

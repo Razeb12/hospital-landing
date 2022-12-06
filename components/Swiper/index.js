@@ -26,7 +26,7 @@ export default function Carousel() {
           <div className="relative shadow-xl sm:overflow-hidden h-full w-full">
             <div className="absolute inset-0">
               <Image
-                className="h-full w-full object-cover"
+                className="h-full invert-0 w-full object-cover"
                 src={bg}
                 alt="People working on laptops"
               />
