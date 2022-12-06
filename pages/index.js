@@ -445,7 +445,7 @@ export default function Home() {
           </div>
         </section>
         {/* testimonials */}
-        <section className="py-20">
+        {/* <section className="py-20">
           <div className="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
             <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
               <div className="md:flex-shrink-0">
@@ -481,9 +481,7 @@ export default function Home() {
                         <div className="text-base font-medium text-black">
                           Judith Black
                         </div>
-                        {/* <div className="text-base font-medium text-black">
-                          CEO, Tuple
-                        </div> */}
+                        
                       </div>
                     </div>
                   </footer>
@@ -491,7 +489,7 @@ export default function Home() {
               </blockquote>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* New section */}
         <section className="bg-fixed bg-center h-full bg-cover pedia">
           <div className="relative">
