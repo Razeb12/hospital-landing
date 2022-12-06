@@ -103,11 +103,18 @@ export default function Navbar() {
   return (
     <Popover className="sticky top-0 bg-white z-50 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex items-center justify-between  py-3 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between   -py-3 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <div>
+            <div className="h">
               <span className="sr-only">Your Company</span>
-              <Image className="h-4 w-auto  invert" src={logo} alt="" />
+              <Image
+                layout="intrinsic"
+          height={80}
+                width={220}
+                
+                src={logo}
+                alt=""
+              />
             </div>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
